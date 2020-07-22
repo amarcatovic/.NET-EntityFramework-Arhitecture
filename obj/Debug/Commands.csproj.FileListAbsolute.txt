@@ -1,0 +1,14 @@
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\Commands.exe.config
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\Commands.exe
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\Commands.pdb
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\EntityFramework.dll
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\EntityFramework.xml
+C:\Users\amar_\source\repos\Commands\Commands\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.csprojAssemblyReference.cache
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.csproj.CoreCompileInputs.cache
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.csproj.CopyComplete
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.exe
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.pdb
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.Migrations.InitMigration.resources
+C:\Users\amar_\source\repos\Commands\Commands\obj\Debug\Commands.csproj.GenerateResource.cache
