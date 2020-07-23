@@ -16,6 +16,11 @@ namespace Commands.Persistance.Repositories
         {
         }
 
+        public IEnumerable<Command> GetAll()
+        {
+            return _context.Set<Command>().Include(c => c.ProgrammingLanguage).ToList();
+        }
+
         public Command FindByName(string name)
         {
             return _context.Set<Command>().Single(c => c.Name == name);

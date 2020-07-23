@@ -9,6 +9,7 @@ namespace Commands.Core.Repositories
 {
     public interface ICommandRepository : IRepository<Command>
     {
+        IEnumerable<Command> GetAll();
         Command FindByName(string name);
     }
 }

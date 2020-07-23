@@ -1,4 +1,5 @@
-﻿using Commands.Persistance;
+﻿using Commands.Core.Models;
+using Commands.Persistance;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -13,8 +14,14 @@ namespace Commands
         {
             using (var unitOfWork = new UnitOfWork(new CommandsContext()))
             {
-                var course = unitOfWork.Commands.Get(1);
-                unitOfWork.Complete();
+                var commands = unitOfWork.Commands.GetAll();
+                
+                foreach(var command in commands)
+                {
+                    Console.WriteLine($"Command: {command.Name} - Language: {command.ProgrammingLanguage.Name}");
+                }
+               
+                Console.ReadLine();
             }
         }
     }
