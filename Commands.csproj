@@ -53,8 +53,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Core\IUnitOfWork.cs" />
     <Compile Include="Core\Models\Command.cs" />
     <Compile Include="Core\Models\ProgrammingLanguage.cs" />
+    <Compile Include="Core\Repositories\ICommandRepository.cs" />
+    <Compile Include="Core\Repositories\IProgrammingLanguageRepository.cs" />
     <Compile Include="Core\Repositories\IRepository.cs" />
     <Compile Include="Migrations\202007221900128_InitMigration.cs" />
     <Compile Include="Migrations\202007221900128_InitMigration.designer.cs">
@@ -64,6 +67,10 @@
     <Compile Include="Persistance\CommandsContext.cs" />
     <Compile Include="Persistance\EntityConfig\CommandConfig.cs" />
     <Compile Include="Persistance\EntityConfig\ProgrammingLanguageConfig.cs" />
+    <Compile Include="Persistance\Repositories\CommandRepository.cs" />
+    <Compile Include="Persistance\Repositories\ProgrammingLanguageRepository.cs" />
+    <Compile Include="Persistance\Repositories\Repository.cs" />
+    <Compile Include="Persistance\UnitOfWork.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -71,9 +78,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Persistance\Repositories\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <EmbeddedResource Include="Migrations\202007221900128_InitMigration.resx">
       <DependentUpon>202007221900128_InitMigration.cs</DependentUpon>
